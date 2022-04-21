@@ -30,6 +30,9 @@ Request to endpoint with jwt token:
 Request to endpoint without jwt token:
 ![image](https://user-images.githubusercontent.com/97282923/191725347-41620b62-8634-4231-a87b-c836ee34ce38.png)
 
+Get all commands from group => GET snippet/groups/groupId/commands:
+![image](https://user-images.githubusercontent.com/97282923/191727089-2adbdc21-3d83-4f22-aee8-b64b7c073fdc.png)
+
 Patch command => PATCH snippet/groups/groupId/commands/commandId:
 --The patch endpoint expects request in the form of:
 {
