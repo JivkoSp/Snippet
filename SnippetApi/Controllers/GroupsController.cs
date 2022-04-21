@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using SnippetApi.Data.Repository.Interfaces;
@@ -8,6 +9,7 @@ using System.Text.RegularExpressions;
 
 namespace SnippetApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("snippet/groups")]
     public class GroupsController : ControllerBase
