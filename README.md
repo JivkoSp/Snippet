@@ -23,23 +23,38 @@ Snippet uses JWT token and Identity API for authentication. When a new user regi
 
 
 ### Registration:
-![image](https://user-images.githubusercontent.com/97282923/191724524-43aaac01-b4c9-4304-82cf-4e1c558b4648.png)
---Response: 
-![image](https://user-images.githubusercontent.com/97282923/191724771-4f7c206c-f40d-453e-b8f7-fc63a8837453.png)
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191724524-43aaac01-b4c9-4304-82cf-4e1c558b4648.png" alt="Registration" width="800">
+</div>
+#### --Response: 
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191724771-4f7c206c-f40d-453e-b8f7-fc63a8837453.png" alt="Registration Response" width="800">
+</div>
 
 ### Login:
-![image](https://user-images.githubusercontent.com/97282923/191724950-448ff968-2723-44f0-89be-8537a408dc95.png)
---Response:
-![image](https://user-images.githubusercontent.com/97282923/191725058-040eb3e6-7140-4de8-a222-870074a48a01.png)
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191724950-448ff968-2723-44f0-89be-8537a408dc95.png" alt="Login" width="800">
+</div>
+#### --Response:
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191725058-040eb3e6-7140-4de8-a222-870074a48a01.png" alt="Login Response" width="800">
+</div>
 
 ### Request to endpoint with jwt token:
-![image](https://user-images.githubusercontent.com/97282923/191725206-293f96ca-bf73-41f2-870b-69620f55f9af.png)
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191725206-293f96ca-bf73-41f2-870b-69620f55f9af.png" alt="JWT Request" width="800">
+</div>
 
 ### Request to endpoint without jwt token:
-![image](https://user-images.githubusercontent.com/97282923/191725347-41620b62-8634-4231-a87b-c836ee34ce38.png)
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191725347-41620b62-8634-4231-a87b-c836ee34ce38.png" alt="JWT Request Denied" width="800">
+</div>
 
-### Get all commands from group => GET snippet/groups/groupId/commands:
-![image](https://user-images.githubusercontent.com/97282923/191727089-2adbdc21-3d83-4f22-aee8-b64b7c073fdc.png)
+### Get all commands from group
+#### Endpoint: GET /snippet/groups/{groupId}/commands
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/97282923/191727089-2adbdc21-3d83-4f22-aee8-b64b7c073fdc.png" alt="Get Commands" width="800">
+</div>
 
 ### Patch command 
 #### Endpoint: PATCH /snippet/groups/{groupId}/commands/{commandId} 
