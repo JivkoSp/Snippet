@@ -47,9 +47,9 @@ Snippet uses JWT token and Identity API for authentication. When a new user regi
   "value": "the new value"
 }`
 #### Supported operations from RFC 6902 include: Add, Remove, Replace, Copy, Move, Test.
-``{
+```{
 "op":"the operation" from Json Specification [Rfc 6902]=> {Add, Remove, Replace, Copy, Move, Test},
 "path":"/property to update",
 "value":"the new value"
-}``
+}
 
