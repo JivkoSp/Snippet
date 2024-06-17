@@ -16,7 +16,7 @@ Snippet uses JWT token and Identity API for authentication. When a new user regi
 
 ## Allowed endpoints:
 
-![image](https://user-images.githubusercontent.com/97282923/191720982-cabb07fa-25ad-4e60-a4c7-d1a78073617b.png)
+<img src="https://user-images.githubusercontent.com/97282923/191720982-cabb07fa-25ad-4e60-a4c7-d1a78073617b.png" alt="Allowed Endpoints" width="500">
 
 
 ### Registration:
