@@ -19,7 +19,7 @@ Snippet uses JWT token and Identity API for authentication. When a new user regi
 ![image](https://user-images.githubusercontent.com/97282923/191720982-cabb07fa-25ad-4e60-a4c7-d1a78073617b.png)
 
 
-Registration:
+# Registration:
 ![image](https://user-images.githubusercontent.com/97282923/191724524-43aaac01-b4c9-4304-82cf-4e1c558b4648.png)
 --Response: 
 ![image](https://user-images.githubusercontent.com/97282923/191724771-4f7c206c-f40d-453e-b8f7-fc63a8837453.png)
