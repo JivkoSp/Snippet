@@ -1,13 +1,18 @@
 # Snippet
 
-Snippet is command-helper rest api with the purpose of helping the developer with finding all commands from specific group or searching for command name from group.
-Each command have discription of how it's used and it's purpose.
-Snippet allow's the expected grud operations and more specific updates with patch (besides put).
+**Snippet** is a command-helper REST API designed to assist developers by providing the ability to find all commands from a specific group or search for a command name within a group. 
+Each command includes a description of how it's used and its purpose. 
+Snippet supports the standard CRUD operations and more specific updates with PATCH (besides PUT).
 
-Authentication
-Snippet has authentication mechanism with Jwt token and Identity api. When new user is registered 
-the snippet api returns response in the form of json object: { Token : "jwtToken", Success: true }.
-When the user sends subsecuent request to the snippet api he must send authorization header that includes: Bearer "user-token".
+## Authentication
+
+Snippet uses JWT token and Identity API for authentication. When a new user registers, the Snippet API returns a response in the form of a JSON object:
+
+```json
+{
+  "Token": "jwtToken",
+  "Success": true
+}
 
 Allowed endpoints:
 
