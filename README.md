@@ -8,13 +8,13 @@ Snippet supports the standard CRUD operations and more specific updates with PAT
 
 Snippet uses JWT token and Identity API for authentication. When a new user registers, the Snippet API returns a response in the form of a JSON object:
 
-```json
+`json
 {
   "Token": "jwtToken",
   "Success": true
-}
+}`
 
-Allowed endpoints:
+## Allowed endpoints:
 
 ![image](https://user-images.githubusercontent.com/97282923/191720982-cabb07fa-25ad-4e60-a4c7-d1a78073617b.png)
 
