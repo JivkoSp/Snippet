@@ -42,15 +42,19 @@ Snippet uses JWT token and Identity API for authentication. When a new user regi
 ### Patch command 
 #### Endpoint: PATCH /snippet/groups/{groupId}/commands/{commandId} 
 #### The PATCH endpoint expects a request in the form of:
-`{
+```
+{
   "op": "the operation",
   "path": "/property to update",
   "value": "the new value"
-}`
+}
+```
 #### Supported operations from RFC 6902 include: Add, Remove, Replace, Copy, Move, Test.
-`{
-"op":"the operation" from Json Specification [Rfc 6902]=> {Add, Remove, Replace, Copy, Move, Test},
-"path":"/property to update",
-"value":"the new value"
-}`
+```
+{
+  "op":"the operation" from Json Specification [Rfc 6902]=> {Add, Remove, Replace, Copy, Move, Test},
+  "path":"/property to update",
+  "value":"the new value"
+}
+```
 
